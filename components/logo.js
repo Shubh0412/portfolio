@@ -30,7 +30,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Shubham's
+          Shubham
         </Text>
       </LogoBox>
     </Link>
