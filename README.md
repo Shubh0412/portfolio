@@ -1,4 +1,4 @@
-Gotta create project to show.
+Gotta create project to show. Really need to so as to showcase my skills.
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
