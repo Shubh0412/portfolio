@@ -6,7 +6,6 @@ import {
   Heading,
   Image,
   Link,
-  SimpleGrid,
   List,
   ListItem,
   Icon,
@@ -17,7 +16,6 @@ import Layout from '@/components/layout/article'
 import Paragraph from '@/components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '@/components/bio'
-import { GridItem } from '@/components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
@@ -94,8 +92,8 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Completed the Bachelor's Programme from JK Institute of Applied
-            Physics & Technology.
+            Completed B.Tech in ECE from JK Institute of Applied Physics &
+            Technology.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
