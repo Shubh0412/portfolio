@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '@/components/section'
 import { WorkGridItem } from '@/components/grid-item'
-import thumbInkdrop from '../public/images/works/NftDrop.png'
+import thumbInkdrop from '../public/images/works/nftdrop.png'
 import Layout from '@/components/layout/article'
 
 const Works = () => {
