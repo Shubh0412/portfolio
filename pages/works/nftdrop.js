@@ -28,9 +28,8 @@ const Work = () => (
           <span>Next.Js, React, Sanity, Third Web</span>
         </ListItem>
       </List>
-
       <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
     </Container>
   </Layout>
 )
