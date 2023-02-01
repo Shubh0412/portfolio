@@ -25,7 +25,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next.Js, React, Sanity, Third Web</span>
+          <span>Next.Js, React, Sanity, ThirdWeb</span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
