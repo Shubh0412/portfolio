@@ -64,10 +64,12 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Too much to write
-            <Link as={NextLink} href="/works/inkdrop" passHref>
-              Inkdrop
-            </Link>
+            Shubham Sahu is a Front-End Developer in light & a Web3 Smart
+            Contract Auditor in the dark. Don&apos;t mistake his smile &
+            selfless nature to be a pushover, he sure is resilient &
+            belligerent. As a true devote, when not in front of his computer,
+            Shubham can be found reading novels in his favourite spot, seeking
+            inspiration from people having the same interest, or being a foodie.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
