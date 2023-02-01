@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '@/components/section'
 import { WorkGridItem } from '@/components/grid-item'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbInkdrop from '../public/images/works/NftDrop.png'
 import Layout from '@/components/layout/article'
 
 const Works = () => {
@@ -12,10 +12,14 @@ const Works = () => {
           Works
         </Heading>
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <SimpleGrid columns={[1, 1, 1]} gap={6}>
           <Section>
-            <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-              A markdown note-take app
+            <WorkGridItem
+              id="nftdrop"
+              title="NFT Club"
+              thumbnail={thumbInkdrop}
+            >
+              Wanna buy NFT? Head right here
             </WorkGridItem>
           </Section>
         </SimpleGrid>
