@@ -25,12 +25,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next.Js, React, Sanity, Third Web</span>
+          <span>Next.Js, React, Sanity, ThirdWeb</span>
         </ListItem>
       </List>
-
       <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
     </Container>
   </Layout>
 )
