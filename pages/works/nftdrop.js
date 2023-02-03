@@ -10,7 +10,8 @@ const Work = () => (
       <Title>Nftdrop</Title>
       <P>
         A Marketplace for buying Nfts which can be viewed at OpenSea once
-        minted.
+        minted. Real time changes can be made using Sanity which supports the
+        backend & Thirdweb manages the Nft collection on Blockchain.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -19,17 +20,14 @@ const Work = () => (
             https://nextjs-nft-seven.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
-        </ListItem>
+
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next.Js, React, Sanity, ThirdWeb</span>
+          <span>Next.Js, React, Sanity, Thirdweb</span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/nftdrop.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/nftdrop1.png" alt="Inkdrop" />
     </Container>
   </Layout>
 )
