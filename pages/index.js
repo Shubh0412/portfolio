@@ -90,7 +90,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>1997</BioYear>
-            Born in Prayagraj, India.
+            Born into the world
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -138,7 +138,10 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="" target="_blank">
+              <Link
+                href="https://www.instagram.com/die_fr_food/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme="teal"
