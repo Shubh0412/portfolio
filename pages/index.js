@@ -90,7 +90,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>1997</BioYear>
-            Born into the world
+            Came into existence
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
