@@ -30,7 +30,7 @@ const Page = () => {
           textAlign="center"
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m a front end developer
+          Hello, I&apos;m a front-end developer.
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -38,7 +38,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Shubham Sahu
             </Heading>
-            <p>Developer (Blockchain / Front-End)</p>
+            <p>Developer (Front-End / Blockchain / Web3-Security)</p>
           </Box>
           <Box
             flexShrink={0}
