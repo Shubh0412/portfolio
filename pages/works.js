@@ -2,6 +2,7 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '@/components/section'
 import { WorkGridItem } from '@/components/grid-item'
 import thumbInkdrop from '../public/images/works/nftdrop.png'
+import thumbAirbnb_1 from '../public/images/works/Airbnb_1.png'
 import Layout from '@/components/layout/article'
 
 const Works = () => {
@@ -20,6 +21,16 @@ const Works = () => {
               thumbnail={thumbInkdrop}
             >
               Wanna buy NFT? Head right here
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="airbnb"
+              title="Airbnb Clone"
+              thumbnail={thumbAirbnb_1}
+            >
+              A Place to book your stay
             </WorkGridItem>
           </Section>
         </SimpleGrid>
