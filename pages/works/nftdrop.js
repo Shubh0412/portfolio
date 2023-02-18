@@ -5,7 +5,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layout/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="NFTdrop">
     <Container>
       <Title>Nftdrop</Title>
       <P>

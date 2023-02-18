@@ -3,6 +3,7 @@ import Section from '@/components/section'
 import { WorkGridItem } from '@/components/grid-item'
 import thumbInkdrop from '../public/images/works/nftdrop.png'
 import thumbAirbnb_1 from '../public/images/works/Airbnb_1.png'
+import thumbChatgpt from '../public/images/works/chatgpt_1.png'
 import Layout from '@/components/layout/article'
 
 const Works = () => {
@@ -13,7 +14,7 @@ const Works = () => {
           Works
         </Heading>
 
-        <SimpleGrid columns={[1, 1, 1]} gap={6}>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
               id="nftdrop"
@@ -21,6 +22,16 @@ const Works = () => {
               thumbnail={thumbInkdrop}
             >
               Wanna buy NFT? Head right here
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="chatgpt"
+              title="ChatGPT Clone"
+              thumbnail={thumbChatgpt}
+            >
+              Your questions are answered right here!
             </WorkGridItem>
           </Section>
 
